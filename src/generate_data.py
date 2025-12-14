@@ -42,7 +42,7 @@ def generate_dummy_dataset(n_samples=1000, output_path='data/dataset.csv'):
     # Save to CSV
     df.to_csv(output_path, index=False)
     
-    print(f"✅ Dataset generated: {n_samples} samples")
+    print(f"[SUCCESS] Dataset generated: {n_samples} samples")
     print(f"   Churn rate: {data['churn'].sum() / n_samples * 100:.1f}%")
     print(f"   Saved to: {output_path}")
     

@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# DVC
+/dvcstore
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Data files (tracked by DVC)
+/data/*.csv
+/data/*.txt
+/data/*.json
+!/data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Airflow
+airflow/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+
+# Docker
+*.tar
+
+# Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+
+# mypy
+.mypy_cache/
